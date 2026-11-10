@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>webpage</title>
+    </head>
+    <body>
+        <h1 align="center">chun rate calculator</h1>
+    <h2 align="center"> Hariharan (26007554)</h2>
+        <form method="POST">
+            {%csrf_token%}
+            <label>initcust</label>
+            <input type="text" name="inital" value="{{h}}"></input> <br></br>
+            <label>custlost</label>
+            <input type="text" name="lost" value="{{a}}"></input> <br></br>
+            <input type="submit" value="calculate"> </input> <br></br>
+            <label>custrate</label>
+            <input type="text" value={{ChurnRate}}></input>
+
+        </form>
+     </body>
+</html>
