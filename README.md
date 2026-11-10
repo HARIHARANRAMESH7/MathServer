@@ -1,14 +1,13 @@
-# Ex.04 Design a Website for Server Side Processing
+# Ex.03 Design a Website for Server Side Processing
 ## Date:
 
 ## AIM:
-To create a web page to calculate total bill amount with GST from price and GST percentage using server-side scripts.
+To create a web page to calculate Churn Rate using server-side scripts.
 
 ## FORMULA:
-Bill = P + (P * GST / 100)
-<br> P --> Price (in Rupees)
-<br> GST --> GST (in Percentage)
-<br> Bill --> Total Bill Amount (in Rupees)
+Churn Rate = (CustLost / InitCust) * 100
+<br> InitCust --> Initial Customers Count
+<br> CustLost --> Customers Lost Count
 
 ## DESIGN STEPS:
 
@@ -31,7 +30,7 @@ Create python programs for views and urls to perform server side processing.
 Receive input values from the form using request.POST.get().
 
 ### Step 7:
-Calculate the total bill amount (including GST).
+Calculate the Result using the given formula.
 
 ### Step 8:
 Display the calculated result in the server console.
@@ -52,4 +51,4 @@ Publish the website in Localhost.
 
 
 ## RESULT:
-The a web page to calculate total bill amount with GST from price and GST percentage using server-side scripts is created successfully.
+The the web page to calculate Churn Rate using server-side scripts is created successfully.
